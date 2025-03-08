@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: web-app
-          image: <your-dockerhub-username>/my-node-app:latest  # Replace with your actual image
+          image: rajeshdondapati309/my-node-app:latest  # Replace with your actual image
           ports:
             - containerPort: 3000
           env:
